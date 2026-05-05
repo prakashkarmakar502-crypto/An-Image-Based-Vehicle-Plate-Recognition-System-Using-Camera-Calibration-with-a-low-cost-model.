@@ -1,2 +1,2 @@
 # An-Image-Based-Vehicle-Plate-Recognition-System-Using-Camera-Calibration-with-a-low-cost-model.
-An image-based vehicle and license plate recognition system that integrates camera calibration
+An image-based vehicle and license plate recognition system that integrates camera calibration, deep learning–based object detection, and optical character recognition (OCR). Camera calibration is applied to correct lens distortion prior to detection, improving geometric accuracy. Vehicles are detected using a YOLOv8 model pretrained on the COCO dataset, while license plates are localized using a custom-trained YOLOv8 detection model. Detected plates are spatially associated with vehicles and passed to an EasyOCR-based optical character recognition module for character extraction.
